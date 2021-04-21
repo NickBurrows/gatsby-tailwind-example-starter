@@ -6,6 +6,9 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.1",
+    "bootswatch": "^4.6.0",
     "classnames": "^2.3.1",
     "dotenv": "^8.2.0",
     "gatsby": "^3.2.1",
@@ -19,11 +22,14 @@
     "gatsby-plugin-sharp": "^3.2.0",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
+    "jquery": "^3.6.0",
     "path": "^0.12.7",
+    "popper.js": "^1.16.1",
     "postcss-import": "^14.0.1",
     "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.3"
@@ -54,17 +60,21 @@
     "gatsby-plugin-eslint": "^3.0.0",
     "gatsby-plugin-root-import": "^2.0.6",
     "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.5",
-    "postcss": "^8.2.9",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
     "postcss-modules": "^4.0.0",
     "prettier": "^2.2.1",
+    "purgecss": "^4.0.3",
     "react-test-renderer": "^17.0.2",
+    "serve": "^11.3.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-twbs-bootstrap": "^2.1.0",
     "tailwindcss": "^2.1.1",
     "typescript": "^4.2.3"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -72,9 +82,17 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
+  "keywords": [
+    "gatsby",
+    "bootstrap",
+    "sass",
+    "css",
+    "javascript",
+    "starter",
+    "template"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"

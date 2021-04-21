@@ -1,0 +1,28 @@
+{
+  "name": "node-mongoose",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.x",
+    "yarn": ">=1.22.5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "server": "nodemon app.js",
+    "start": "nodemon app.js",
+    "heroku-postbuild": "cd .. && yarn && yarn run build"
+  }
+}
